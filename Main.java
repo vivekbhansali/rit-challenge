@@ -40,8 +40,10 @@ public class Main {
 		// Iterate over description part and categorize the transaction
 		c.iterate(data);
 		
+		System.out.println();
+		System.out.println("Total Transactions: " + data.size());
+		
 		// Display the transactions according to categories
-		System.out.println("***** Categorizing Transactions *****");
 		c.displayCounts();
 	}
 
