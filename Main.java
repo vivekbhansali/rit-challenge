@@ -26,7 +26,7 @@ public class Main {
 	public static void main(String[] args) throws FileNotFoundException {
 		
 		//String file = "/Users/vivekbhansali/Documents/workspace/CostCutting/bin/Test.txt";
-		String file = "/Users/vivekbhansali/Documents/workspace/CostCutting/bin/transactions-person-A.csv";
+		String file = "transactions-person-A.csv";
 		
 		FileRead fr = new FileRead();
 		Count c = new Count();
